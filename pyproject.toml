@@ -1,0 +1,31 @@
+[project]
+name = "pycycle"
+version = "0.1.0"
+description = "Detect and suggest fixes for import cycles in Python projects."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["import", "cycle", "analysis", "static-analysis"]
+authors = [{ name = "Open Source", email = "opensource@example.com" }]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+pycycle = "pycycle.cli:main"
+
+[project.urls]
+Repository = "https://github.com/ScobieWorks/pycycle"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool]
+
+[tool.setuptools]
+
+[tool.setuptools.packages]
+
+[tool.setuptools.packages.find]
+where = ["."]
