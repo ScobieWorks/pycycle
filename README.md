@@ -35,3 +35,38 @@ MIT License
 ## Support
 
 If this project saved you time, optional support is welcome: https://paypal.me/Damonwill
+
+<!-- ORION_MONETIZATION_PILOT_START -->
+
+## Python Circular Dependency Audit — Pilot
+
+Using PyCycle on a real Python codebase and want help interpreting the dependency
+cycles it finds? For a limited 7-day pilot, ScobieWorks is testing a fixed-scope
+**Python Circular Dependency Audit for $149**.
+
+### What the audit includes
+
+- Review of PyCycle results for one Python project
+- Prioritized circular-dependency findings and practical break points
+- Refactoring recommendations
+- Short architecture/remediation summary
+- Suggested CI check to help prevent new dependency cycles
+
+A public repository or sanitized PyCycle output can be used for the review.
+You do not need to provide credentials or private repository access.
+
+### Pilot scope
+
+- One project and one analysis pass
+- Up to two hours of review
+- No guaranteed code remediation
+- No hosting or SLA
+- $149 is an experimental pilot price, not an established market price
+
+Interested in the pilot? Open a GitHub issue in this repository with the title:
+
+**PyCycle Audit Pilot**
+
+Do not include credentials, secrets, or sensitive/private source code in the issue.
+
+<!-- ORION_MONETIZATION_PILOT_END -->
